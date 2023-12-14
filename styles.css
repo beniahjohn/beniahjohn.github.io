@@ -128,7 +128,7 @@ a:hover {
     color: #2f3845;
 }
 
-#visualization img{
+#visualization img {
     width: 200%;
     height: 60%;
 }
@@ -217,10 +217,17 @@ button:hover {
     color: black;
 }
 
+.faqs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 details {
     margin-bottom: 1.5rem;
     padding: 4px 4px;
-    max-width: 50%;
+    width: 100%;
+
 }
 
 summary {
